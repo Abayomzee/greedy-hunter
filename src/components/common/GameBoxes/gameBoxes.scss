@@ -1,0 +1,13 @@
+.gameBoxes {
+  border: 1px solid #853594;
+  height: 6rem;
+//   height: 4rem;
+
+  display: grid;
+  place-items: center;
+
+  &__food {
+    max-width: 3.3rem;
+    max-height: 3.1rem;
+  }
+}

@@ -1,0 +1,31 @@
+$color-1: #853594;
+$color-2: #fcfcfc;
+
+.btn {
+  background: $color-1;
+  border-radius: 1rem;
+  padding: 1.5rem 7.5rem;
+  border: none;
+  color: $color-2;
+  font-family: inherit;
+
+  font-weight: 500;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08);
+  }
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+
+  }
+}

@@ -1,0 +1,17 @@
+.gameDetailsContainer {
+  background-image: url(../../../assets/images/bgmesh.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: transparent;
+  margin: 7rem 4rem 5rem;
+  padding: {
+    top: 1rem;
+    bottom: 6rem;
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,39 @@
+.heartLevel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+
+  &__heart {
+    max-width: 5.44rem;
+    max-height: 4.383rem;
+    position: absolute;
+    z-index: 99;
+    transform: translateX(-5px);
+  }
+
+  &__level {
+    width: 16.2rem;
+    height: 1.8rem;
+
+    background: linear-gradient(180deg, #853594 47.39%, #692789 47.4%);
+    border: 2.15507px solid #532461;
+    border-radius: 1.2661rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+  }
+
+  &__level-rate {
+    background: linear-gradient(180deg, #f07cc3 44.27%, #c5418e 44.28%);
+    border: 1.87639px solid #fffffd;
+    box-sizing: border-box;
+    border-radius: 11.0238px;
+
+    width: 60%;
+    height: 1.6rem;
+    margin-bottom: 0.5px;
+  }
+}

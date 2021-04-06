@@ -1,0 +1,13 @@
+$color-1: #ffc700;
+
+.headingText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+  color: $color-1;
+  margin: {
+    top: 2rem;
+    bottom: 1rem;
+  }
+}

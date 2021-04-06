@@ -1,0 +1,15 @@
+$color-2: #cbcbff;
+
+.paragraph {
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: $color-2;
+
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.bolder {
+  font-weight: 600;
+}

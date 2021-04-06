@@ -1,0 +1,15 @@
+.gamePlayBackground {
+  background-image: url(../../../assets/images/gameplaybg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  overflow-y: auto;
+
+  // display: grid;
+  // place-items: center;
+  padding: 6rem 6rem;
+}

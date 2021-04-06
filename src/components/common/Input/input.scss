@@ -1,0 +1,44 @@
+$color-3: #ee8d94;
+$color-4: #fcfcfc;
+
+.input {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: {
+      top: 4rem;
+      bottom: 5rem;
+    }
+  }
+  &__label {
+    font-weight: 500;
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+    color: $color-3;
+    margin-right: 2rem;
+  }
+  &__item {
+    border: 0.4rem solid $color-3;
+    border-radius: 0.5rem;
+    background-color: transparent;
+
+    font-weight: 500;
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+    color: $color-4;
+    padding: 0.5rem;
+
+    &:focus {
+      outline: none;
+    }
+    // &::-webkit-outer-spin-button,
+    // &::-webkit-inner-spin-button {
+    //   -webkit-appearance: none;
+    //   margin: 0;
+    // }
+    // &[type="number"] {
+    //   -moz-appearance: textfield;
+    // }
+  }
+}
